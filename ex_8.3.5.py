@@ -73,7 +73,7 @@ def taylor_ln_function(x, epsilon=1e-6):
 
 def main():
     """Головна функція для обчислення всіх завдань та запису результатів"""
-    with open('imput_file_8.3.5.txt', 'w', encoding='utf-8') as f:
+    with open('output_file_8.3.5.txt', 'w', encoding='utf-8') as f:
         # Завдання a)
         f.write("Завдання a) Обчислення елементів послідовності:\n")
         x_a = 2.5
@@ -113,4 +113,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-    print("Результати записано у файл 'imput_file_8.3.5.txt'")
+    print("Результати записано у файл 'output_file_8.3.5.txt'")
